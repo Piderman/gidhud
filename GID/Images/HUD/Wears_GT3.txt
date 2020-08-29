@@ -7,20 +7,14 @@ height = 203
 
 [ELEMENTS]
 
-Background = T, 0, 0, 141, 203, P, 0, 0
+Background = T, 0, 0, 141, 210, P, 0, 0
 
-// always on top, cant sit under text
-.FrontLeftWheelLock  = T, 140, 8, 20 , 20 , P, 10, 23
-.FrontRightWheelLock = T, 140, 8, 20 , 20 , P, 111, 30
-.RearLeftWheelLock   = T, 140, 8, 20 , 20 , P, 10, 158
-.RearRightWheelLock  = T, 140, 8, 20 , 20 , P, 111, 158
+NumericWearFrontLeftWheel  = T, 190, 28, 13, 20, HALIGN, Left, P, 18, 28
+NumericWearFrontRightWheel = T, 190, 28, 13, 20, HALIGN, Right, P, 124, 28
+NumericWearRearLeftWheel   = T, 190, 28, 13, 20, HALIGN, Left, P, 18, 72,
+NumericWearRearRightWheel  = T, 190, 28, 13, 20, HALIGN, Right, P, 124, 72
 
-NumericWearFrontLeftWheel  = T, 190, 28, 13, 20, HALIGN, Left, P, 18, 23
-NumericWearFrontRightWheel = T, 190, 28, 13, 20, HALIGN, Left, P, 82, 23
-NumericWearRearLeftWheel   = T, 190, 28, 13, 20, HALIGN, Left, P, 18, 68
-NumericWearRearRightWheel  = T, 190, 28, 13, 20, HALIGN, left, P, 82, 68
-
-TempFrontLeftWheel  = T, 190, 180, 13, 20, HALIGN, LEFT, P, 18, 117
-TempFrontRightWheel = T, 190, 180, 13, 20, HALIGN, RIGHT, P, 122, 117
-TempRearLeftWheel   = T, 190, 180, 13, 20, HALIGN, LEFT, P, 18, 163
-TempRearRightWheel  = T, 190, 180, 13, 20, HALIGN, RIGHT, P, 122, 163
+TempFrontLeftWheel  = T, 190, 180, 13, 20, HALIGN, LEFT, P, 18, 124
+TempFrontRightWheel = T, 190, 180, 13, 20, HALIGN, RIGHT, P, 122, 124
+TempRearLeftWheel   = T, 190, 180, 13, 20, HALIGN, LEFT, P, 18, 170
+TempRearRightWheel  = T, 190, 180, 13, 20, HALIGN, RIGHT, P, 122, 170

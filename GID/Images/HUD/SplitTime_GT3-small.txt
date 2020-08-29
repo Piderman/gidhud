@@ -23,8 +23,8 @@ ShowInvalidTime = 1
 // Name = X, Y, Width, Height
 // For Font Width and Height refers to a single dimension char.
 
-Background = T, 286, 0, 150, 203, P, 0, 0
+Background = T, 286, 0, 150, 210, P, 0, 0
 
-CurrentTime =  T, 0, 0, 0, 0, 0, P, 10, 23, FONTSIZE, 1, FONTCOLOR, 0
-PersonalGap  = T, 0, 0, 0, 0, P, 10, 90, FONTSIZE, 1, FONTCOLOR, 0
-BestGap  = T, 0, 0, 0, 0, P, 10, 158, FONTSIZE, 1, FONTCOLOR, 0
+CurrentTime =  T, 0, 0, 0, 0, 0, P, 10, 30, FONTSIZE, 1, FONTCOLOR, 0
+PersonalGap  = T, 0, 0, 0, 0, P, 10, 98, FONTSIZE, 1, FONTCOLOR, 0
+BestGap  = T, 0, 0, 0, 0, P, 10, 167, FONTSIZE, 1, FONTCOLOR, 0

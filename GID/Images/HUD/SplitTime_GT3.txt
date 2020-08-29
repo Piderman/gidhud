@@ -5,30 +5,36 @@
 // "C:\Program Files (x86)\Steam\steamapps\common\rFactor\Plugins\GID\Images\HUD\TextureTextHUD1.tga"
 
 //time in s
-FixedTime = 60
+FixedTime = 600
 
 //time in s
 FadingTime = 2
 
 //time in s
-StopTimeforSecond = 60
+StopTimeforSecond = 600
 
-width  = 290
-height = 203
+width  = 294
+height = 210
 
 ShowInvalidTime = 1
+
+//ShowBestGap = 1
+//ShowPersonalGap = 1
 
 [ELEMENTS]
 // Rect border of elements inside Texture
 // Name = X, Y, Width, Height
 // For Font Width and Height refers to a single dimension char.
 
-Background = T, 0, 0, 290, 203, P, 0, 0
+Background = T, 0, 0, 294, 210, P, 0, 0
 
-// todo: swap so last, PB and B are on right, current and deltas on left (as per small)
-CurrentTime =  T, 0, 0, 0, 0, 0, P, 10, 23, FONTSIZE, 1, FONTCOLOR, 0
-LastLapTime = T, 0, 0, 0, 0, 0, P, 153, 23, FONTSIZE, 1, FONTCOLOR, 0
-PersonalGap  = T, 0, 0, 0, 0, P, 10, 90, FONTSIZE, 1, FONTCOLOR, 0
-PersonalBestTime = T, 0, 0, 0, 0, 28, P, 153, 90, FONTSIZE, 1, FONTCOLOR, 5
-BestGap  = T, 0, 0, 0, 0, P, 10, 158, FONTSIZE, 1, FONTCOLOR, 0
-BestLapTime = T, 0, 0, 0, 0, 0, P, 153, 158, FONTSIZE, 1, FONTCOLOR, 4
+// cycles through timing intervals [1, 2, lap]
+//SplitTime      = T, 0, 0, 0, 0, P, 0, -24, FONTSIZE, 1, FONTCOLOR, 5, HALIGN, right
+
+
+CurrentTime =  T, 0, 0, 0, 0, 0, P, 10, 30, FONTSIZE, 1, FONTCOLOR, 0
+LastLapTime = T, 0, 0, 0, 0, 0, P, 153, 30, FONTSIZE, 1, FONTCOLOR, 0
+PersonalGap  = T, 0, 0, 0, 0, P, 10, 98, FONTSIZE, 1, FONTCOLOR, 0
+PersonalBestTime = T, 0, 0, 0, 0, 28, P, 153, 98, FONTSIZE, 1, FONTCOLOR, 5
+BestGap  = T, 0, 0, 0, 0, P, 10, 167, FONTSIZE, 1, FONTCOLOR, 0
+BestLapTime = T, 0, 0, 0, 0, 0, P, 153, 167, FONTSIZE, 1, FONTCOLOR, 4
