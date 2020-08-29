@@ -1,0 +1,14 @@
+[WIDGET]
+width  = 80
+height = 108
+
+
+[ELEMENTS]
+// Rect border of elements inside Texture
+// Name = X, Y, Width, Height
+// For Font Width and Height refers to a single dimension char.
+
+Background = T, 0, 101, 80, 108, P, 0, 0
+
+LAPS        = T, 0, 0, 0, 0, P, 40, 26, FONTSIZE, 1, FONTCOLOR, 7, HALIGN, Center
+RACELAPS    = T, 0, 0, 0, 0, P, 40, 70, FONTSIZE, 1, FONTCOLOR, 7, HALIGN, Center
