@@ -1,0 +1,16 @@
+[WIDGET]
+
+width  = 80
+height = 108
+
+// can we do horizontal variant of these? inline like delta/splits
+
+[ELEMENTS]
+// Rect border of elements inside Texture
+// Name = X, Y, Width, Height
+// For Font Width and Height refers to a single dimension char.
+
+Background = T, 0, 0, 80, 108, P, 0, 0
+
+PLACE      = T, 0, 0, 0, 0, P, 40, 26, FONTSIZE, 1, FONTCOLOR, 6, HALIGN, Center
+NUMDRIVERS = T, 0, 0, 0, 0, P, 40, 70, FONTSIZE, 1, FONTCOLOR, 6, HALIGN, Center
