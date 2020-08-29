@@ -1,0 +1,45 @@
+[WIDGET]
+UseIcon =LEDICONS
+
+// "C:\Program Files (x86)\Steam\steamapps\common\rFactor\Plugins\GID\Images\HUD\LCD_GT3.tga"
+
+width  = 387
+height = 256
+
+// RN0123456789
+// <speed / time text>
+// 0123456789. +-:°
+// <all text>
+// !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+
+[ELEMENTS]
+// T, X, Y, width, height, P, X, Y
+// [T]exture, starting at 0,0. draw 512x256. [P]lace it at 0,0 of widget
+// T, 0, 0, 512, 256, P, 0, 0
+
+// bg texture. start X Y. width height
+LCD = T, 0, 0, 387, 256, P, 0, 0
+
+.Gear = T, 5, 270 144, 183, P, 153, 63
+// 108
+Gear = T, 0, 310 144, 138, P, 153, 108
+
+// font size 58px * .63 for char w
+Speed = T, 746, 0, 37, 52, P, 136, 76
+MaxSpeed = T, 512, 52, 13, 20, P, 136, 130
+
+// white
+Fuel.Last = T, 512, 8, 13, 18, P, 136, 187, HALIGN, LEFT
+Fuel.Laps = T, 512, 8, 13, 20, P, 136, 222, HALIGN, LEFT
+
+
+// blue
+Place = T, 512, 140, 13, 20, P, 356, 92
+
+// orange
+LAPS = T, 512, 160, 13, 20, P, 356, 168
+RACELAPS = T, 512, 160, 13, 20, P, 356, 217
+
+MiniFuelIcon = T, 387, 8, 96, 29, P, 184, 71
+MiniTempIcon = T, 387, 57, 96, 29, P, 240, 71

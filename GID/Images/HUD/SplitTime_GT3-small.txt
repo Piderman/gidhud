@@ -1,0 +1,30 @@
+[WIDGET]
+
+// "C:\Program Files (x86)\Steam\steamapps\common\rFactor\Plugins\GID\Images\HUD\SplitTime_GT3-small.tga"
+
+
+//time in s
+FixedTime = 60
+
+//time in s
+FadingTime = 2
+
+//time in s
+StopTimeforSecond = 60
+
+.width  = 142
+width  = 290
+height = 203
+
+ShowInvalidTime = 1
+
+[ELEMENTS]
+// Rect border of elements inside Texture
+// Name = X, Y, Width, Height
+// For Font Width and Height refers to a single dimension char.
+
+Background = T, 286, 0, 150, 203, P, 0, 0
+
+CurrentTime =  T, 0, 0, 0, 0, 0, P, 10, 23, FONTSIZE, 1, FONTCOLOR, 0
+PersonalGap  = T, 0, 0, 0, 0, P, 10, 90, FONTSIZE, 1, FONTCOLOR, 0
+BestGap  = T, 0, 0, 0, 0, P, 10, 158, FONTSIZE, 1, FONTCOLOR, 0
